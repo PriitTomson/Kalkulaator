@@ -2,7 +2,7 @@
 
 # from math import *
 
-# 
+#
 # first_number: float = float(input("Enter first number:"))
 # operator: str = input("+, -, /, * ")
 # second_number: float = float(input("Enter second number:"))
