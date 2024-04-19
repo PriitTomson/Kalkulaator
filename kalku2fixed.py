@@ -8,7 +8,7 @@ def input_number(prompt, allow_zero=True):
             print("Please enter number!!!")
             continue
         if not allow_zero and float(number) == 0:
-            print("zero not allowed")
+            print("Zero not allowed")
             continue
         return float(number)
 
@@ -27,7 +27,7 @@ while user_choice != "e":
         first_number = input_number("Enter first number: ")
         operator = input("Choose an operator, + - / *: ")
         operator = operator[0]
-        print(f" operator: {operator}")
+        print(f"Operator: {operator}")
         second_number = input_number("Enter second number: ", operator != "/")
 
         if operator == "+":
